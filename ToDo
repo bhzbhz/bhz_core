@@ -1,0 +1,11 @@
+26/09:
+.login (duupimenta)
+.cadastrar assignment(aberto a sugestoes):
+  criar core para inserção de assignment:
+    .necessario ID(identity); Nome; DataCriacao; DataInicial(quando começar a ser válido); DataFinal(data final para entrega);
+                Descricao; Pontos(quantos bhz ganha ao completar); imgUrl;
+    .criação de tabela no banco correspondente
+    .retornar variavel booleana referente a sucesso ou falha e string com mensagem de erro 
+    .todos os campos exceto imgUrl são obrigatorios
+.alteração de assignment (talvez extender o cadastro para fazer alteração e busca de dados conformo parametro passado?)
+.buscar assignments (caso recebe datas, filtrar, se nao, tudo)
